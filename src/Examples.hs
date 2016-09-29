@@ -4,6 +4,7 @@ module Examples
     , atan'
     ) where
 
+-- converence for abs x ~= 1 is absolutely terrible
 atan' :: Double -> Double
 atan' x
   | x < 0 = -atan' (-x)
